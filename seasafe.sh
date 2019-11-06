@@ -12,4 +12,5 @@ chmod +x ./uart_control
 sudo ./uart_control gpio
 
 sudo apt-get install screen
+sudo apt-get install gpsd
 sudo reboot
