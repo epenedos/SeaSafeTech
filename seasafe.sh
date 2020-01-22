@@ -1,7 +1,7 @@
 
 
 
-echo 'deb http://ppa.launchpad.net/opencpn/opencpn/ubuntu/ bionic main' >> /etc/apt/sources.list
+sudo echo 'deb http://ppa.launchpad.net/opencpn/opencpn/ubuntu/ bionic main' >> /etc/apt/sources.list
 sudo apt install dirmngr
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C865EB40
 sudo apt-get update
